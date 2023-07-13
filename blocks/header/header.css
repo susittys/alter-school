@@ -1,15 +1,14 @@
 .header{
     display: grid;
-    margin: 2em auto 1em auto;
     grid-gap: 0 1em;
     grid-template-columns: 200px repeat(2,1fr) 248px 128px;
-    justify-items: stretch;
 
     font-size: 18px;
 
     max-width: 1440px;
     width: calc(100% - 86px);
 
+    margin: 2em auto 1em auto;
     align-items: center;
     box-sizing: border-box;
 }
@@ -24,21 +23,21 @@
     .header{
         grid-template-columns: 200px repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-gap: 22px;
     }
 }
 
 @media screen and (max-width: 890px) {
     .header{
-        grid-template-columns: 200px 270px;
+        grid-template-columns: 1fr 1fr;
         width: fit-content;
+        grid-gap: 1.2em;
     }
 }
 
 @media screen and (max-width: 544px) {
     .header{
         grid-template-columns: 1fr;
-        width: fit-content;
-        align-items: center;
+        width: calc(100% - 48px);
+        margin: 1em auto;
     }
 }

@@ -8,13 +8,13 @@
 @media screen and (max-width: 1360px) {
     .header__box{
         grid-gap: 8px;
-        grid-template-columns: 36px 1fr;
+        grid-template-columns: 48px 1fr;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .header__box{
         grid-gap: 6px;
-        grid-template-columns: 32px 1fr;
+        grid-template-columns: 48px 1fr;
     }
 }
