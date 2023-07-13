@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "homepage": "https://susittys.github.io/alter-school"
+  },
+  "scripts": {
+    "publish": "gh-pages -d src"
+  }
+}
