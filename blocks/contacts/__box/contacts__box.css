@@ -1,0 +1,18 @@
+.contacts__box{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "title title"
+                         "icon link";
+    align-items: center;
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts__box{
+        grid-template-columns: 38px 1fr;
+        grid-template-rows: 32px 1fr;
+    }
+}

@@ -1,0 +1,13 @@
+.icon-group{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 1280px) {
+    .icon-group{
+        display: flex;
+        justify-content: space-between;
+    }
+}

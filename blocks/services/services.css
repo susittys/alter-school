@@ -1,0 +1,13 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 86px);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 890px) {
+    .services{
+        width: calc(100% - 42px);
+    }
+}

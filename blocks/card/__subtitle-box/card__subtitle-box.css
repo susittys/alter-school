@@ -1,0 +1,7 @@
+.card__subtitle-box{
+    font-size: 18px;
+    color: #31373d;
+
+    z-index: 2;
+    position: relative;
+}

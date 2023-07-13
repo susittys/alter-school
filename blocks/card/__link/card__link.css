@@ -1,0 +1,26 @@
+.card__link{
+    display: block;
+    padding: 30px 20px;
+    background-color: white;
+    text-decoration: none;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.card__link:hover,
+.card__link:hover .card__title,
+.card__link:hover .card__subtitle {
+    color: #FFF;
+}
+
+.card__link:hover .card__title{
+    text-decoration: underline;
+}
+
+.card__link:hover .card__bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}

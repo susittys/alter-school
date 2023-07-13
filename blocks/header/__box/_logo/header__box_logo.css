@@ -1,0 +1,9 @@
+.header__box_logo{
+    display: flex;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+}

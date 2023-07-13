@@ -1,0 +1,4 @@
+.icon_grid_header{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}

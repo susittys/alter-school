@@ -1,0 +1,30 @@
+.image-main__content{
+    width: 100%;
+    max-width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+    padding: 100px 48px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .image-main__content{
+        padding: 100px 150px 48px 42px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .image-main__content{
+        padding: 100px 150px 48px 24px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .image-main__content{
+        padding: 1em;
+    }
+}

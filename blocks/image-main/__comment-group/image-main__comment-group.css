@@ -1,0 +1,9 @@
+.image-main__comment-group{
+    width: calc(100% - 78px);
+}
+
+@media screen and (max-width: 544px) {
+    .image-main__comment-group{
+       width: 100%;
+    }
+}

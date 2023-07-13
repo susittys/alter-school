@@ -1,0 +1,24 @@
+.image-main__comment{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42px;
+    max-width: 1024px;
+    margin: 1.2em 0 0 0;
+    text-shadow: 2px 2px 4px rgba(31, 45, 31, 0.9);
+}
+
+
+/* АДАПТИВ */
+@media screen and (max-width: 1440px) {
+    .image-main__comment{
+        font-size: 20px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image-main__comment{
+        font-size: 18px;
+        max-width: 100%;
+    }
+}

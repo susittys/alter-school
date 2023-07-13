@@ -1,0 +1,31 @@
+.image-main__title{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+
+    text-shadow: 2px 2px 4px rgba(31, 45, 31, 0.9);
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .image-main__title{
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image-main__title{
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .image-main__title{
+        font-size: 32px;
+    }
+}

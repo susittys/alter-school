@@ -1,0 +1,20 @@
+.card__title{
+    min-height: 87px;
+    margin: 0 0 25px;
+
+    overflow: hidden;
+
+    font-weight: bold;
+    font-size: 28px;
+    color: #31373d;
+
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+    .card__title{
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
