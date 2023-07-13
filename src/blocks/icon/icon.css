@@ -1,0 +1,41 @@
+.icon{
+    width: 32px;
+    height: 32px;
+    background-color: #699269;
+    border-radius: 8px;
+    padding: 8px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px, auto, cover;
+    transition: background-color,background-size 150ms ease-in-out;
+}
+
+.icon:hover{
+    background-color: #cd5c5c;
+    background-size: 36px;
+}
+
+@media screen and (max-width: 1360px) {
+    .icon{
+        background-size: 32px, auto, cover;
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon:hover{
+        background-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .icon{
+        background-size: 24px, auto, cover;
+        width: 16px;
+        height: 16px;
+    }
+
+    .icon:hover{
+        background-size: 28px;
+    }
+}

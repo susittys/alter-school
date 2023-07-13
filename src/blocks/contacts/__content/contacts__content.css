@@ -1,0 +1,13 @@
+.contacts__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+
+    margin: 1em 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__content{
+        flex-direction: column;
+    }
+}

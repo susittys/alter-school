@@ -1,0 +1,47 @@
+.toggler{
+    height: 100%;
+    width: 64px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    cursor: pointer;
+    opacity: 0;
+
+    z-index: 4;
+}
+
+/* средняя полоска*/
+.toggler:checked + .hamburger > div{
+    background: rgba(0,0,0,0);
+}
+
+/* верхняя полоска*/
+.toggler:checked + .hamburger > div::before{
+    top: 0;
+    transform: rotate(45deg);
+    background: #31373d;
+}
+
+/* верхняя нижняя*/
+.toggler:checked + .hamburger > div::after{
+    top: 0;
+    transform: rotate(135deg);
+    background: #31373d;
+}
+
+/* ширина основного блока меню*/
+.toggler:checked ~ .menu-hamburger{
+    width: 70%;
+}
+
+.toggler:checked ~ .menu-hamburger > div > ul{
+    transition: visibility 0.4s ease;
+    transition-delay: 0.1s;
+    visibility: visible;
+}
+
+.toggler:checked ~ .menu-hamburger > div > ul > li > a:hover{
+    color: whitesmoke;
+}

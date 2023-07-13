@@ -1,0 +1,22 @@
+.card {
+    -ms-flex-preferred-size: 236px;
+    flex-basis: 236px;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+
+/* АДАПТИВ */
+@media screen and (max-width: 1440px) {
+    .card{
+        -ms-flex-preferred-size: 236px;
+        flex-basis: 236px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .card{
+        -ms-flex-preferred-size: 208px;
+        flex-basis: 208px;
+    }
+}

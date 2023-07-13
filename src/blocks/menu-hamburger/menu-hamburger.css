@@ -1,0 +1,37 @@
+.menu-hamburger{
+    background: #699269;
+    width: 0;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all 0.4s ease;
+}
+
+.menu-hamburger >  div > ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+    visibility: hidden;
+}
+
+.menu-hamburger > div > ul > li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.menu-hamburger > div > ul > li > a{
+    color: #31373d;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-hamburger > div > ul > li > a{
+        font-size: 20px;
+    }
+}

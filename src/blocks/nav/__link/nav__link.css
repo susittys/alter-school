@@ -1,0 +1,11 @@
+.nav__link{
+    color: #444c37;
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
+}
+
+.nav__item:hover .nav__link{
+    color: #d04d4d;
+    border-style: solid;
+    border-width: 0 0 1px;
+}

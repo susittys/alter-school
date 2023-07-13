@@ -1,0 +1,5 @@
+.icon-group__box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
