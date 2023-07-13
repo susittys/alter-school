@@ -27,15 +27,3 @@
         background-size: 32px;
     }
 }
-
-@media screen and (max-width: 1024px) {
-    .icon{
-        background-size: 24px, auto, cover;
-        width: 16px;
-        height: 16px;
-    }
-
-    .icon:hover{
-        background-size: 28px;
-    }
-}

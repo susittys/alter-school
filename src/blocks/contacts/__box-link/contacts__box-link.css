@@ -2,6 +2,7 @@
     grid-area: link;
     color: #2b3023;
     font-size: 20px;
+    line-height: 28px;
     font-weight: 500;
     text-decoration: none;
 }
@@ -22,21 +23,15 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .contacts__box-link{
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .contacts__box-link{
-        font-size: 16px;
+@media screen and (max-width: 546px) {
+    .icon-group .contacts__box-link{
+        display: none;
     }
 }
 
 @media screen and (max-width: 546px) {
-    .icon-group .contacts__box-link{
-        display: none;
+    .contacts__box-link{
+        font-size: 19px;
     }
 }
 

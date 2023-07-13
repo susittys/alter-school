@@ -1,11 +1,4 @@
 .contacts__box-link_type_bold{
     color: #cd5c5c;
-    font-size: 22px;
     font-weight: 600;
-}
-
-@media screen and (max-width: 1440px) {
-    .contacts__box-link_type_bold{
-        font-size: 20px;
-    }
 }

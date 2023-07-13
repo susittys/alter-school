@@ -7,3 +7,10 @@
     grid-row-end: 3;
     grid-column-end: 2;
 }
+
+
+@media screen and (max-width: 544px) {
+    .header__box_logo{
+        justify-self: center;
+    }
+}
