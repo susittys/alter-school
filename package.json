@@ -1,9 +1,15 @@
 {
   "dependencies": {
     "gh-pages": "^5.0.0",
-    "homepage": "https://susittys.github.io/alter-school"
+    "homepage": "https://[github-username].github.io/[github-repository-name]"
   },
   "scripts": {
     "publish": "gh-pages -d src"
-  }
+  },
+  "name": "alter-school",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
