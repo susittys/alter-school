@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(45deg, rgb(208, 77, 77, .7), rgba(104, 145, 105, 0.8)), url(../../images/driver-and-woman.jpg) no-repeat fixed top center;
-    background-size: cover;
+    background: linear-gradient(45deg, rgb(208, 77, 77, .7), rgba(104, 145, 105, 0.8)), url(../../images/driver-and-woman.jpg) no-repeat fixed center center;
+    background-size: contain;
     height: auto;
 }
