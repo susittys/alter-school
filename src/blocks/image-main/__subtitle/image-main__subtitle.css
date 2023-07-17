@@ -1,35 +1,18 @@
 .image-main__subtitle{
     font-size: 48px;
-    line-height: 48px;
+    line-height: 64px;
     font-weight: 500;
     letter-spacing: 6px;
 
     color: #97db97;
     text-shadow: 2px 2px 4px rgba(31, 45, 31, 0.9);
+
+    height: fit-content;
     padding: 0;
     margin: .3em 0;
 
-    border-right: solid 3px #d04d4d;
-    white-space: nowrap;
+    white-space: pre-wrap;
     overflow: hidden;
-}
-
-/* Animation */
-.image-main__subtitle {
-    animation: animated-text 2s steps(29,end) 1s 1 normal both,
-    animated-cursor 600ms steps(29,end) infinite;
-}
-
-/* text animation */
-@keyframes animated-text{
-    from{width: 0;}
-    to{width: 555px}
-}
-
-/* cursor animations */
-@keyframes animated-cursor{
-    from{border-right-color: #97db97;}
-    to{border-right-color: transparent;}
 }
 
 
@@ -37,40 +20,25 @@
 @media screen and (max-width: 1440px) {
     .image-main__subtitle{
         font-size: 42px;
-        line-height: 42px;
+        line-height: 58px;
         font-weight: 500;
-        letter-spacing: 1px;
-    }
-
-    /* text animation */
-    @keyframes animated-text{
-        from{width: 0;}
-        to{width: 420px}
+        letter-spacing: 3px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .image-main__subtitle{
         font-size: 36px;
-        line-height: 36px;
+        line-height: 48px;
         font-weight: 500;
-    }
-
-    /* text animation */
-    @keyframes animated-text{
-        from{width: 0;}
-        to{width: 365px}
+        letter-spacing: 2px;
     }
 }
 
 @media screen and (max-width: 544px) {
     .image-main__subtitle{
-        font-size: 28px;
-    }
-
-    /* text animation */
-    @keyframes animated-text{
-        from{width: 0;}
-        to{width: 272px}
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 1px;
     }
 }
