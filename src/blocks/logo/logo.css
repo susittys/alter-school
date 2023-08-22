@@ -1,6 +1,12 @@
-.logo{
+.logo {
     width: 100%;
     min-width: 128px;
-    max-height: 128px;
+    max-height: 185px;
     object-fit: contain;
+}
+
+@media screen and (max-width: 890px) {
+    .logo{
+        max-height: 146px;
+    }
 }

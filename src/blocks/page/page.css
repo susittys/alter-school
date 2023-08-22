@@ -3,6 +3,7 @@
     margin: 0;
 }
 
-.color-green{
-    color: #97db97;
+.color-red{
+    color: #cd5c5c;
+    font-weight: bold;
 }
